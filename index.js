@@ -9,7 +9,7 @@ const messageUser = document.getElementById('message-user');
 
 form.addEventListener('submit', event => {
     event.preventDefault();
-    if (validateInputs()) {
+    if (validateInputs()){
     alertMessage();
     }
 });
